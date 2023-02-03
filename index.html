@@ -204,10 +204,11 @@
     <h2 class="h3 text mb-3">Contact</h2>
     <div class="row">
       <div class="col-md-7 d-print-none">
-        <div class="my-2"><form action="index.html"method="POST">
+        <div class="my-2">
+      <form method="POST" action="mailto:gvtsnu@gmail.com" name="myForm" enctype="text/plain">
   <div class="row">
     <div class="col-6">
-      <input class="form-control" type="text" id="name" name="name" placeholder="Your Name" required>
+      <input class="form-control" type="text" id="name" name="fld_name" placeholder="Your Name" required>
     </div>
     <div class="col-6">
       <input class="form-control" type="email" id="email" name="_replyto" placeholder="Your E-mail" required>
@@ -216,7 +217,7 @@
   <div class="form-group my-2">
     <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4"  placeholder="Your Message" required></textarea>
   </div>
-  <button class="btn btn-primary mt-2" type="submit">Send</button>
+  <button class="btn btn-primary mt-2" type="submit" value="send">Send</button>
 </form>
         </div>
       </div>
